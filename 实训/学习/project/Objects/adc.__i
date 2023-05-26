@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\user -I ..\user\api -I ..\STM32F10x_StdPeriph_Driver\inc -I ..\LCD -I ..\ALI\HMAC -I ..\ALI\MQTT -I ..\ALI -I ..\user\LCD
+-I.\RTE\_software
+-ID:\ProgramFiles\Keil5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+-ID:\ProgramFiles\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_LD -DSTM32F10X_LD -DUSE_STDPERIPH_DRIVER
+-o .\objects\adc.o --omf_browse .\objects\adc.crf --depend .\objects\adc.d "..\user\api\adc.c"

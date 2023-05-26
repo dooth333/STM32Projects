@@ -1,0 +1,11 @@
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTFormat.c
+.\objects\mqttformat.o: ..\ALI\MQTT\StackTrace.h
+.\objects\mqttformat.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTPacket.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTConnect.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTPublish.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTSubscribe.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTUnsubscribe.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTFormat.h
+.\objects\mqttformat.o: ..\ALI\MQTT\MQTTPacket.h
+.\objects\mqttformat.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
